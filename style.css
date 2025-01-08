@@ -1,4 +1,8 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .open-sans-normal {
     font-family: "Open Sans", serif;
@@ -9,12 +13,24 @@
       "wdth" 100;
   }
 
+  .dark-2{
+    color: #474747;
+  }
+
+
+  /* header starts here */
+  .header{
+    background-image: url(images/developer.png), url(images/header_bg.png)
+    ;
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+  }
   /* nav-style starts here  */
   header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 30px 200px;
   }
   .nav-title{
     font-size: 45px;
@@ -47,6 +63,89 @@
     border: none;
   }
   /* nav-style ends here  */
+
+
+  /* bannar starts here  */
+  .bannar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 38px 50px 230px;
+  }
+  .bannar .greatings{
+    font-size: 45px;
+  }
+  .bannar-title{
+    font-size: 85px;
+  }
+  .bannar-content p{
+    font-size: 18px;
+    padding: 20px 0;
+    width: 60%;
+  }
+  .contact-btn{
+    color: #FD6E0A;
+    background-color: white;
+    border: 1px solid #FD6E0A;
+    margin-left: 30px;
+  }
+  .bannar-image{
+    width: 584px;
+    height: 676px;
+  }
+  /* bannar ends here  */
+
+  /* header ends here */
+
+
+
+  /* main starts here */
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  /* common-style */
+  .section-bg{
+    background-color: #FFF8F3;
+  }
+
+  .section-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+  .section-desc{
+    color: #757575;
+    font-size: 18px;
+    padding: 30px 0;
+  }
+
+  /* about section starts here */
+  .about{
+    padding: 130px 150px;
+    text-align: center;
+  }
+
+  .about-items{
+    display: flex;
+    justify-content: space-around;
+  }
+  .item-title{
+    font-size: 20px;
+    color: #757575;
+  }
+  .item-desc{
+    font-size: 20px;
+    color: #474747;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+
+
+  /* about section ends here */
+  /* main ends here */
+
 
 
 
