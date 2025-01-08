@@ -142,11 +142,80 @@
     font-weight: bold;
     padding-top: 10px;
   }
-
-
   /* about section ends here */
   /* main ends here */
 
+
+  /* work section starts here  */
+  .work{
+    text-align: center;
+    margin-bottom: 130px;
+  }
+  .work-title-container{
+    padding: 0 130px;
+  }
+
+  .skils-container{
+    display: flex;
+    gap: 24px;
+  }
+  .skils-container .skil{
+    text-align: left;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
+  }
+  .skil-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+    padding: 30px 0;
+  }
+  /* work section ends here  */
+
+  /* summary section starts here  */
+  .summary-section{
+    margin-bottom: 130px;
+  }
+  .summary-section .section-title{
+    text-align: center;
+  }
+  .resume-container{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-top: 110px;
+  }
+
+  .education{
+    padding: 30px 0;
+    border-bottom: 1px solid black;
+  }
+  .education-title{
+    font-size: 30px;
+  }
+  .edu-title, .experience-title{
+    font-size: 25px;
+    color: #474747;
+    padding-bottom: 10px;
+  }
+  .edu-university, .experience-plat{
+    font-size: 20px;
+    color: #757575;
+    padding-bottom: 20px;
+  }
+  .edu-desc, .experience-desc{
+    font-size: 16px;
+    color: #757575;
+  }
+  .experience{
+    padding: 30px 0;
+    border-bottom: 1px solid black;
+  }
+  .experienced-title{
+    font-size: 30px;
+  }
+
+  /* summary section ends here  */
 
 
 
