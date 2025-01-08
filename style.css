@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .open-sans-normal {
@@ -30,7 +31,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 200px;
+    margin: 0 200px;
+    padding-top: 30px;
   }
   .nav-title{
     font-size: 45px;
@@ -108,6 +110,7 @@
   .section-bg{
     background-color: #FFF8F3;
   }
+  
 
   .section-title{
     color: #181818;
@@ -174,7 +177,7 @@
 
   /* summary section starts here  */
   .summary-section{
-    margin-bottom: 130px;
+    margin-bottom: 100px;
   }
   .summary-section .section-title{
     text-align: center;
@@ -214,8 +217,57 @@
   .experienced-title{
     font-size: 30px;
   }
+  .down-btn-container{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+  }
 
   /* summary section ends here  */
+
+  /* footer starts here */
+  footer{
+    display: flex;
+    /* max-width: 1140px; */
+    margin: 0 auto;
+    padding: 130px 300px;
+    gap: 115px;
+  }
+  .connect-footer{
+    width: 50%;
+  }
+  .form-section{
+    width: 50%;
+  }
+  .social-icon{
+    display: flex;
+    gap: 24px;
+  }
+  .social-icon img{
+    width: 30px;
+    box-shadow: 0px 6px 50px -5px black;
+  }
+
+  /* form section starts here */
+  .form-section .section-title{
+    margin-bottom: 28px;
+  }
+  input[type='text'], input[type='email']{
+    padding: 18px 30px;
+    width: 100%;
+    border: none;
+    margin-bottom: 24px;
+  }
+
+  .form-section textarea{
+    width: 100%;
+    resize: none;
+    padding: 30px 30px;
+    border: none;
+    margin-bottom: 24px;
+  }
+  /* form section ends here */
+  /* footer ends here */
 
 
 
