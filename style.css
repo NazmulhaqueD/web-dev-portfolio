@@ -278,6 +278,41 @@
   @media screen and (max-width: 576px) {
     .skils-container{
       flex-direction: column;
-    }    
+    }  
+    .skils-container .skil{
+      text-align: center;
+      padding: 30px 5px;
+    }
+    
+    .resume-container{
+      flex-direction: column;
+      padding: 0 20px;
+    }
+    footer{
+      flex-direction: column;
+      padding: 10px 30px;
+    }
+    .connect-footer, .form-section{
+      width: 100%;
+    }
+
+    .work-title-container{
+      padding: 0 20px;
+      text-align: justify;
+    }
+    .work-title-container h3{
+      text-align: center;
+    }
+    .about{
+      padding: 50px;
+    }
+    .about-items{
+      margin-top: 50px;
+      /* background-color: gray; */
+      display: grid;
+      grid-template-columns: repeat(2, 40%);
+      gap: 40px;
+      justify-content: space-between;
+    }
   }
 
