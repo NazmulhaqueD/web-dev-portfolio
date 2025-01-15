@@ -270,5 +270,14 @@
   /* footer ends here */
 
 
+  .hide{
+    display: none;
+  }
 
+  /* responsive design */
+  @media screen and (max-width: 576px) {
+    .skils-container{
+      flex-direction: column;
+    }    
+  }
 
