@@ -275,7 +275,39 @@
   }
 
   /* responsive design */
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 768px) {
+    .header{
+      background-image: none;
+    }
+    header nav{
+      flex-direction: column;
+      margin: 10px;
+    }
+    nav ul{
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+      text-align: center;
+    }
+    nav ul li{
+      padding: 20px 0;
+      border-radius: 20px;
+      background-color: silver;
+      width: 100%;
+    }
+    .hire-btn{
+      color: white;
+      background-color: #FD6E0A;
+      padding: 0;
+    }
+    .bannar{
+      flex-direction: column;
+      margin: 5px;
+    }
+    .bannar-image{
+      width: 50%;
+      height: auto;
+    }
     .skils-container{
       flex-direction: column;
     }  
